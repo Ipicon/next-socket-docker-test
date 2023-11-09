@@ -20,9 +20,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <SocketProvider>
+        {/*<SocketProvider>*/}
           {children}
-        </SocketProvider>
+        {/*</SocketProvider>*/}
       </body>
     </html>
   )

@@ -13,8 +13,8 @@ export default function Home() {
         setData(data.data)
       })
     }
-  }, [isConnected])
-  
+  }, [isConnected, socket])
+
   return (
     <main className="grid place-items-center w-screen h-screen bg-white">
       <h1>is connected: {isConnected.toString()} </h1>
